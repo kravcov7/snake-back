@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  be:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sb
+    restart: always
+    ports:
+      - "80:80"
+    tty: true
+    volumes:
+      - "C:/Users/Katushenka/PycharmProjects/snake-back/:/code:rw"
