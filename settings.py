@@ -3,4 +3,4 @@ from dotenv import load_dotenv
 
 load_dotenv()
 SECRET_KEY = getenv('SECRET_KEY')
-ALGORITHM = getenv('ALGORITHM')
+ALGORITHM = ['HS256']
